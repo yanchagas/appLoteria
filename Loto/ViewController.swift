@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  Loto
-//
-//  Created by Jessica Haber on 16/03/23.
-//
+
 
 import UIKit
 
