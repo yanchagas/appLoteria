@@ -28,16 +28,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-qA-6KB">
-                                <rect key="frame" x="16" y="233.5" width="382" height="32"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-qA-6KB">
+                                <rect key="frame" x="60" y="234" width="294" height="32"/>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.38823529411764707" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="Mega-sena"/>
                                     <segment title="Quina"/>
                                 </segments>
                                 <connections>
-                                    <action selector="GenerateGame" destination="BYZ-38-t0r" eventType="valueChanged" id="zBL-GY-qFs"/>
-                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="valueChanged" id="o9g-u4-egd"/>
+                                    <action selector="generateGamesNumbers" destination="BYZ-38-t0r" eventType="valueChanged" id="B24-lE-vPS"/>
                                 </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhV-7T-kcl">
@@ -51,8 +50,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="GenerateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aay-HH-jwQ"/>
-                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pc6-do-Gfk"/>
+                                    <action selector="generateGamesNumbers" destination="BYZ-38-t0r" eventType="touchUpInside" id="7na-qG-6f9"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="OWj-Qe-NT8">
